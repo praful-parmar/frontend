@@ -1,0 +1,25 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    margin-bottom: 40px;
+
+    .logo {
+        max-width: 210px;
+    }
+
+    .button.account, .button.connection {
+        color: rgb(56, 56, 56);
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        border: solid grey 2px;
+        margin-right: 0px;
+
+        &:hover {
+            border: solid orangered 2px;
+            color: orangered;
+        }
+    }
+}

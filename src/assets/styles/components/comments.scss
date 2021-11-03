@@ -1,0 +1,32 @@
+.comments-list-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.comment {
+    border-left: orangered 2px solid;
+    list-style: none;
+    margin: 20px 0;
+    padding-left: 20px;
+
+    .comment-author {
+        font-weight: bold;
+    }
+
+    > .text-content {
+        background-color: rgb(241, 241, 241);
+        border-radius: 5px;
+        padding: 10px 12px;
+    }
+}
+
+.button.more-comments {
+    align-self: flex-end;
+}
